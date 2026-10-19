@@ -1,0 +1,111 @@
+{
+  "scales": {
+    "A": ["Strongly agree", "Agree", "Neutral", "Disagree", "Strongly disagree"],
+    "B": ["One of the most important", "Very important", "Somewhat important", "Not too important", "Not at all important"],
+    "C": ["A great deal", "Only some", "Hardly any"],
+    "D": ["Almost daily", "Once or twice a week", "A few times a month", "A few times a year", "Never"]
+  },
+  "bfi_scale": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"],
+  "working_only": ["SATJOB", "RICHWORK"],
+  "interview": [
+    ["Batch 1 · Personal Introduction", ["Unga pathi konjam sollunga: neenga yaar, ippo enna pannitu irukkeenga?", "Neenga enga porandhu valandheenga? Andha oor unga mela enna impact pannirukku?", "Chinna vayasula unga mela adhigama influence pannadhu yaar? Yen?"]],
+    ["Batch 1 · School Life", ["School life epdi irundhuchu? Neenga epdi student-ah irundheenga?", "School-la unga life-ah romba impact pannina teacher illa friend yaaravadhu irukkangala? Avanga pathi sollunga.", "Padikkumbodhu neenga face pannina biggest challenge enna? Adha epdi samaalicheenga?"]],
+    ["Batch 1 · Education / Work", ["Neenga padicha field illa velai-ah epdi choose panneenga? Marubadiyum chance kedacha adhaye choose pannuveengala?", "Padippula illa velaiyila nadandha oru failure pathi sollunga. Adhulendhu enna kathukitteenga?", "Unga first job illa first work experience pathi konjam sollunga.", "Team-oda work pannina oru experience share pannunga. Adhu epdi irundhuchu?"]],
+    ["Batch 2 · Family & Relationships", ["Ippo unga family-oda relationship epdi irukku?", "Unga life-la romba close person yaar? Avanga yen unga-ku mukkiyam?", "Oru nalla friend-kitta neenga adhigama expect panra quality enna?", "Unga close people kooda problem vandha adha epdi solve panneenga? Oru example sollunga.", "Unga parents illa family-ku neenga enna responsibility irukku nu feel panreenga?", "Unga parents solli kuduththa values-la edhu innum unga life-la use aagudhu?"]],
+    ["Batch 2 · Culture & Spirituality", ["Tamil culture-la unga-ku romba mukkiyamaana vishayam enna?", "Unga family-la follow panra oru festival illa tradition pathi sollunga. Adhu unga-ku enna artham?", "Religion illa spirituality (illa unga-ku nambikkai kudukkura vishayam) daily life-la enna role play pannudhu?", "Traditional values-um modern lifestyle-um neenga epdi balance panreenga?"]],
+    ["Batch 3 · Personality & Values", ["Neenga ungala moonu words-la describe pannanum-na enna solveenga? Yen?", "Unga life-ah guide panra mukkiyamaana values enna?", "Kaalathukku kaalam unga values illa thinking maathirukka? Oru example sollunga.", "Unga poruthavarikkum success-na enna?", "Unga poruthavarikkum happiness-na enna? Eppo neenga unmaiya happy-ah feel panreenga?", "Life ungalukku kathukodutha biggest lesson enna?"]],
+    ["Batch 3 · Emotional Intelligence", ["Neenga emotional-ah epdi patta aal? Unga feelings-ah epdi express panreenga?", "Endha maari situations ungala romba happy-ah feel panna vaikkum?", "Romba stress illa kovam vandha oru situation share pannunga. Adha epdi handle panneenga?", "Yaarachum ungala criticize panna neenga epdi react panneenga?"]],
+    ["Batch 4 · Society & Current Affairs", ["Innikki namma society face panra biggest challenge enna nu neenga ninaikkireenga?", "Ippo irukkura education system students-ah future-ku nalla prepare panratha? Yen appadi ninaikkireenga?", "Unga community-la oru problem-ah solve panna chance kedacha, endha problem-ah choose panneenga? Yen?"]],
+    ["Batch 4 · Decision Making", ["Oru mukkiyamaana decision edukkum bodhu logic-ah, emotion-ah, illa rendum serthaa use panneenga? Yen?", "Unga life-la romba kashtamaana oru decision pathi sollunga.", "Eppovachum oru decision eduthu regret pannirukeengala? Adhulendhu enna kathukitteenga?", "Risk edukka pidikkuma, illa safe-ah irukka dhaan pidikkuma? Yen?"]],
+    ["Batch 4 · Finance", ["Financial security-na unga poruthavarikkum enna artham?", "Panatha save panna virumbuveengala, illa spend panna virumbuveengala? Yen?", "Adutha 5 to 10 years-la unga biggest financial goal enna?"]],
+    ["Batch 5 · AI & Technology", ["Kadantha sila varushangala technology unga daily life-ah epdi maathirukku?", "ChatGPT, Gemini maari AI tools use pannirukeengala? Unga experience epdi irundhuchu? (Use pannala-na, AI pathi enna ketturukeenga?)", "AI namma daily life-la oru part aaguradhu pathi unga opinion enna?", "Future-la AI adhigama opportunities create pannuma, illa challenges create pannuma? Yen appadi ninaikkireenga?"]],
+    ["Batch 5 · Future Goals", ["Adutha 10 years-la ungala enga paakreenga? Enna achieve panna ninaikkureenga?", "Kashtamaana nerathulayum ungala continue panna motivate panradhu enna?", "Ippo neenga improve panna try panra personal quality enna?", "Unga life-ah thirumbi paatha, romba perumaiya feel panna vecha achievement edhu?", "Adutha 10 years-la Tamil Nadu illa India-la enna maari irukkanum nu aasai padureenga?", "Future-la oru AI ungala represent pannanum-na, questionnaire-la solla mudiyadha unga pathina endha oru vishayathai adhu kandippa purinjikanumnu neenga ninaikkireenga?"]]
+  ],
+  "demographics": [
+    ["D1", "What is your age group?", ["20–29", "30–39", "40–50"]],
+    ["D2", "What is your gender?", ["Male", "Female", "Transgender", "Other"]],
+    ["D3", "What is your marital status?", ["Married", "Widowed", "Divorced or separated", "Never married"]],
+    ["D4", "What is your highest level of education?", ["Below 10th", "10th", "12th", "Diploma", "Bachelor’s degree", "Master’s degree or above"]],
+    ["D5", "How many children do you have?", ["0", "1", "2", "3", "4 or more"]],
+    ["D6", "What is your religion?", ["Hindu", "Muslim", "Christian", "Other", "No religion"]],
+    ["D7", "What is your current work status?", ["Employed full-time", "Employed part-time", "Self-employed", "Not working", "Homemaker", "Student"]],
+    ["D8", "Where do you live?", ["Village", "Town", "City"]]
+  ],
+  "gss": [
+    ["B. Trust and confidence", [
+      ["TRUST", "In general, do you think most people can be trusted, or that you should be careful in dealing with people?", ["Most people can be trusted", "Should be careful", "It depends"]],
+      ["FAIR", "If they got a chance, do you think most people would try to take advantage of you, or would they try to be fair?", ["Would take advantage", "Would try to be fair", "It depends"]],
+      ["HELPFUL", "Would you say that most of the time people try to be helpful, or that they mostly look out for themselves?", ["Try to be helpful", "Look out for themselves", "It depends"]],
+      ["CONPRESS", "How much confidence do you have in the media (newspapers and TV news)?", "C"],
+      ["CONFINAN", "How much confidence do you have in banks and financial institutions?", "C"],
+      ["CONCLERG", "How much confidence do you have in religious institutions (temples, mosques, churches)?", "C"]
+    ]],
+    ["C. Family, gender and social values", [
+      ["FAMILY16", "When you were around 16 years old, who were you living with?", ["Both parents", "Mother only", "Father only", "Grandparents or other relatives", "Someone else"]],
+      ["FEFAM", "It is better for everyone if the man earns money outside the home and the woman takes care of the home and family.", "A"],
+      ["IMPMAR", "How important is being married to you personally?", "B"],
+      ["DIVLAW", "Should it be easier or harder to get a divorce than it is now?", ["Easier", "Harder", "Keep it as it is"]],
+      ["PREMARSX", "If a man and a woman have sexual relations before marriage, do you think it is wrong?", ["Always wrong", "Almost always wrong", "Wrong only sometimes", "Not wrong at all", "Prefer not to answer"]],
+      ["OBEY", "How important is it for a child to learn to obey parents and elders?", "B"],
+      ["THINKSELF", "How important is it for a child to learn to think for themselves?", "B"],
+      ["GETAHEAD", "Some people say that hard work is the main way to get ahead in life, while others say that luck or help from other people matters more. Which do you think is more important?", ["Hard work", "Both equally", "Luck or help from others"]]
+    ]],
+    ["D. Work, money and class", [
+      ["SATJOB", "(Ask only if currently working.) On the whole, how satisfied are you with the work you do?", ["Very satisfied", "Moderately satisfied", "A little dissatisfied", "Very dissatisfied"]],
+      ["RICHWORK", "(Ask only if currently working.) If you had enough money to live comfortably for the rest of your life, would you continue to work or stop working?", ["Continue working", "Stop working"]],
+      ["PARSOL", "Compared to your parents when they were your age, is your standard of living now better, worse, or about the same?", ["Much better", "Somewhat better", "About the same", "Somewhat worse", "Much worse"]],
+      ["SATFIN", "How satisfied are you with your family's present financial situation?", ["Very satisfied", "Somewhat satisfied", "Not at all satisfied"]],
+      ["LOCAL: WORRY", "How often do you worry about having enough money for daily expenses or for an emergency?", ["Almost every day", "A few times a week", "A few times a month", "Rarely", "Never"]],
+      ["CLASS", "Which social class would you say you belong to?", ["Lower class", "Lower-middle class", "Middle class", "Upper-middle or upper class"]],
+      ["DISRSPCT", "How often are you treated with less respect than other people?", ["Almost every day", "At least once a week", "A few times a month", "A few times a year", "Never"]]
+    ]],
+    ["E. Religion and spirituality", [
+      ["ATTEND", "How often do you go to a temple, mosque, church or other place of worship?", ["Never", "A few times a year", "About once a month", "About once a week", "Almost every day"]],
+      ["PRAY", "How often do you pray or perform worship at home or elsewhere?", ["Several times a day", "Once a day", "Several times a week", "Less often", "Never"]],
+      ["POSTLIFE", "Do you believe there is life after death (including rebirth)?", ["Yes", "No", "Not sure"]],
+      ["GOD", "Which statement is closest to your belief about God?", ["I don't believe in God", "I don't know, and there is no way to find out", "I believe in a higher power", "I believe in God, with some doubts", "I believe in God, with no doubts"]],
+      ["RELPERSN", "How religious do you consider yourself to be?", ["Very religious", "Moderately religious", "Slightly religious", "Not religious at all"]]
+    ]],
+    ["F. Politics, government and identity (Tamil Nadu context)", [
+      ["LOCAL", "How closely do you follow political news?", ["Very closely", "Somewhat closely", "Not very closely", "Not at all"]],
+      ["LOCAL", "How much confidence do you have in the Tamil Nadu state government?", "C"],
+      ["LOCAL", "How much confidence do you have in the central (Union) government?", "C"],
+      ["LOCAL", "On matters such as education, language and taxes, who should have more power to decide?", ["State governments much more", "State governments somewhat more", "Both equally", "Central government somewhat more", "Central government much more"]],
+      ["LOCAL", "Do you support the current system of caste-based reservations in education and government jobs?", ["Strongly support", "Support", "Neutral", "Oppose", "Strongly oppose", "Prefer not to answer"]],
+      ["LOCAL", "Government welfare schemes such as free rations, pensions and subsidies should be continued or expanded.", "A"],
+      ["LOCAL", "How important is your Tamil identity to who you are?", "B"],
+      ["LOCAL", "How important is your caste or community identity to who you are?", ["@B", "Prefer not to answer"]]
+    ]],
+    ["G. Technology, community, safety and wellbeing", [
+      ["INTRNETUSE", "How often did you use the internet in the past 12 months?", ["Almost all the time", "Several times a day", "Once a day", "A few times a week", "Rarely", "Never"]],
+      ["SMNEWS", "How reliable is the news you see on social media?", ["Very unreliable", "Somewhat unreliable", "Somewhat reliable", "Very reliable"]],
+      ["FEAR", "Is there any area within 1 km of your home where you would be afraid to walk alone at night?", ["Yes", "No"]],
+      ["HAPPY", "Taking everything together, how would you say things are these days?", ["Very happy", "Pretty happy", "Not too happy"]],
+      ["HEALTH", "In general, would you say your health is excellent, good, fair, or poor?", ["Excellent", "Good", "Fair", "Poor"]],
+      ["SOCREL", "How often do you spend time with relatives, either visiting them or hosting them?", "D"],
+      ["LOCAL", "Thinking about the next 5 years, do you think your family's standard of living will get better, worse, or stay about the same?", ["Much better", "Somewhat better", "About the same", "Somewhat worse", "Much worse"]],
+      ["LOCAL", "How often do you give your time, labor or money to a community activity (such as a temple festival, street function or local welfare work) without expecting anything in return?", ["Very often", "Fairly often", "Sometimes", "Rarely", "Never"]]
+    ]]
+  ],
+  "bfi": [
+    ["Extraversion", [["Enjoys being the center of attention in a group", 0], ["Feels energized after spending time around lots of people", 0], ["Speaks up easily in conversations, even with strangers", 0], ["Prefers quiet, low-key settings over lively gatherings", 1], ["Finds it easy to introduce myself to new people", 0], ["Tends to hold back rather than take the lead", 1], ["Gets excited about upcoming social events", 0], ["Feels most comfortable working alone rather than in a group", 1]]],
+    ["Agreeableness", [["Goes out of my way to help people, even at personal cost", 0], ["Assumes people generally mean well", 0], ["Finds it easy to forgive others after a conflict", 0], ["Can be sharp or critical when annoyed", 1], ["Enjoys cooperating with others rather than competing", 0], ["Tends to be suspicious of others' motives", 1], ["Feels genuine concern for people I don't know well", 0], ["Argues just to win, even when I might be wrong", 1], ["Tries to see things from other people's point of view", 0]]],
+    ["Conscientiousness", [["Keeps my belongings and workspace well organized", 0], ["Follows through on commitments, even small ones", 0], ["Plans tasks carefully before starting them", 0], ["Leaves things until the last minute", 1], ["Pays close attention to details in my work", 0], ["Loses focus easily and jumps between tasks", 1], ["Sets clear goals and works steadily toward them", 0], ["Forgets appointments or deadlines fairly often", 1], ["Double-checks my work before calling it finished", 0]]],
+    ["Neuroticism", [["Worries about things long after they've happened", 0], ["Stays calm even when plans fall apart", 1], ["Gets stressed easily by everyday hassles", 0], ["Feels emotionally steady most of the time", 1], ["Overthinks decisions, even small ones", 0], ["Bounces back quickly from disappointment", 1], ["Feels anxious in unfamiliar situations", 0], ["Rarely feels overwhelmed by pressure", 1]]],
+    ["Openness", [["Enjoys discussing abstract ideas or theories", 0], ["Seeks out new experiences, even ones that feel risky", 0], ["Appreciates art, music, or writing that's unconventional", 0], ["Prefers familiar routines over trying new things", 1], ["Gets curious about topics I know nothing about", 0], ["Comes up with unusual or creative solutions to problems", 0], ["Sticks to tried-and-true methods rather than experimenting", 1], ["Enjoys imagining possibilities that don't yet exist", 0], ["Finds philosophical or scientific questions fascinating", 0], ["Feels uneasy around ideas that challenge my usual beliefs", 1]]]
+  ],
+  "games": [
+    {"key": "game1_dictator", "section": "Game 1: Dictator Game (generosity)", "type": "slider", "options": {"min": 0, "max": 100, "step": 1, "unit": "₹", "left_label": "₹0", "right_label": "₹100", "normalize_by": 100},
+     "text": "Scenario: You have ₹100. You decide how much to give to another anonymous participant. They cannot reject or change your decision.\n\nYou have ₹100. You can keep all of it or give any amount to another participant in this study. How many rupees, from ₹0 to ₹100, would you like to give?\n\nYour earnings: 100 − amount given."},
+    {"key": "game2_trust_first", "section": "Game 2: Trust Game, First Mover (trust)", "type": "slider", "options": {"min": 0, "max": 50, "step": 1, "unit": "₹", "left_label": "₹0", "right_label": "₹50", "normalize_by": 50},
+     "text": "Scenario: You have ₹50. You can send any amount from ₹0 to ₹50 to Player 2. The amount you send is tripled before Player 2 receives it. Player 2 then decides how much to return to you.\n\nYou have ₹50. Whatever you send to Player 2 is tripled. For example, if you send ₹20, Player 2 receives ₹60. Player 2 can then return any amount to you. How many rupees, from ₹0 to ₹50, would you like to send?\n\nYour earnings: 50 − amount sent + amount returned by Player 2."},
+    {"key": "game3_trust_second", "section": "Game 3: Trust Game, Second Mover (reciprocity)", "type": "slider", "options": {"min": 0, "max": 90, "step": 1, "unit": "₹", "left_label": "₹0", "right_label": "₹90", "normalize_by": 90},
+     "text": "Scenario: Suppose Player 1 sent you ₹30. It was tripled, so you now have ₹90. You decide how much to return to Player 1.\n\nSuppose Player 1 sent you ₹30, which was tripled to ₹90. You can keep all of it or return any amount to Player 1. How many rupees, from ₹0 to ₹90, would you like to return?\n\nYour earnings: 90 − amount returned.\n\nPairing for payment: your decision is matched with a real Player 1 who actually sent ₹30. If no real first mover sent exactly ₹30, your earnings come from the nearest sent amount, scaled in proportion."},
+    {"key": "game4_public_goods", "section": "Game 4: Public Goods Game (cooperation)", "type": "slider", "options": {"min": 0, "max": 50, "step": 1, "unit": "₹", "left_label": "₹0", "right_label": "₹50", "normalize_by": 50},
+     "text": "Scenario: You are in a group of four participants, and each has ₹50. Everyone decides how much to put into a shared pool. The pool is doubled and split equally among all four.\n\nYou and three other participants each have ₹50. You can keep your money or put any amount into a shared pool. The total in the pool is doubled and divided equally among all four of you, whether or not you contributed. How many rupees, from ₹0 to ₹50, would you like to contribute?\n\nYour earnings: 50 − your contribution + (2 × total group contributions) ÷ 4.\n\nExample: if all four contribute ₹50, each ends with ₹100. If you keep your ₹50 while the other three contribute ₹50 each, you end with ₹125 and each of the others ends with ₹75."},
+    {"key": "game5_sharing_choice", "section": "Game 5: The Sharing Game", "type": "single_choice", "options": ["A", "B"],
+     "text": "Scenario: You and another participant are given a chance to earn money. Both of you must independently choose A or B, without knowing the other person's choice.\n\nIf you choose A and the other chooses A: you ₹50, other ₹50\nIf you choose A and the other chooses B: you ₹80, other ₹20\nIf you choose B and the other chooses A: you ₹20, other ₹80\nIf you choose B and the other chooses B: you ₹60, other ₹60\n\nIf you were playing this game, which would you choose: A or B?"},
+    {"key": "game5_sharing_why", "section": "Game 5: The Sharing Game", "type": "text", "options": null,
+     "text": "Why did you choose that? Please explain in a sentence or two."}
+  ]
+}
